@@ -1,0 +1,2 @@
+//separa grupos
+console.log('00000000000000000000000000000000000001480014600091'.match(/.{1,5}/g).filter(e => parseInt(e, 10) !== 0).reduce((e1, e2) => e1.concat('-').concat(e2)) );
